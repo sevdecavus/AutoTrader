@@ -1,0 +1,19 @@
+Used Chrome Browser for automation.
+Website: www.autotrader.com
+
+1.On the home page, verified that the following types of elements are present:
+-Links: Browse by Make, Browse by Style, Advanced Search
+-Buttons: Search
+-Dropdowns: Make, Model
+
+2.Clicked on the 'Advanced Search' link on the home page and did the following:
+-Enter 30004 in the 'Zip code' textbox
+-Select the 'Certified' check box under 'Condition'
+-Select the 'Convertible' check box under 'Style'
+-Update the 'Year' dropdown menus as follows: select 2017 as From year and select 2020 as To year
+-Select MAke as 'BMW' under Make, Model & Trim section
+
+3.Clicked the button 'Search' at the bottom of the page
+4.Saw some results/listings in the next page
+5.Asserted that only BMW cars in the result page
+6.Logged to the console, the total number of cars/listings that you see in the results page
